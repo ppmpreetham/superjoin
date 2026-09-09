@@ -1,2 +1,22 @@
-*/.venv
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# python
+__pycache__/
 *.pyc
+.venv/
+backend/.venv/
+uv.lock
+
+# runtime artifacts
+backend/data/
+backend/seed/pdf_text/
+
+# env & secrets
+.env
+*.env
+
+# misc
+.DS_Store
+*.log
