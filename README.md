@@ -84,21 +84,16 @@ Use a `.env` file or shell variables.
 
 ### 1.5 API summary
 
-| Method | Path | Action |
-|--------|------|--------|
-| POST | `/api/upload` | Send a PDF. The system extracts facts and compares them. |
-| GET | `/api/facts` | List facts. Add `?doc_id=` to filter. |
-| GET | `/api/relationships` | List relationships. Add `?kind=` to filter. |
-| GET | `/api/showcase` | Get the four demo cases and the failure log. |
-| GET | `/api/documents` | List documents. |
-| DELETE | `/api/documents/{id}` | Remove a document and its facts. |
+| Method | Path                  | Action                                                   |
+| ------ | --------------------- | -------------------------------------------------------- |
+| POST   | `/api/upload`         | Send a PDF. The system extracts facts and compares them. |
+| GET    | `/api/facts`          | List facts. Add `?doc_id=` to filter.                    |
+| GET    | `/api/relationships`  | List relationships. Add `?kind=` to filter.              |
+| GET    | `/api/showcase`       | Get the four demo cases and the failure log.             |
+| GET    | `/api/documents`      | List documents.                                          |
+| DELETE | `/api/documents/{id}` | Remove a document and its facts.                         |
 
-The API docs are at `http://localhost:8000/docs`.
-
-## 2. Demo video
-
-> (Add the link here. The video must show one upload and the four cases. Keep
-> it under 3 minutes.)
+The API docs are at `http://localhost:8000/docs`
 
 ## 3. Approach
 
