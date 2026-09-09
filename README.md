@@ -96,6 +96,10 @@ Use a `.env` file or shell variables.
 
 The API docs are at `http://localhost:8000/docs`
 
+## 2. Video Link
+
+https://drive.google.com/file/d/1R8JFmNij8E4oVhmGQ98LueFkJ-Ujen0T/view?usp=drive_link
+
 ## 3. Approach
 
 ### 3.1 Pipeline
