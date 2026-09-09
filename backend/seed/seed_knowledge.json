@@ -1,0 +1,777 @@
+{
+  "documents": [
+    {
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "name": "Delhivery Prospectus 2022 (excerpt)",
+      "file": "delhivery/01-delhivery-prospectus-2022-excerpt.pdf"
+    },
+    {
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "name": "Delhivery Annual Report FY24 (excerpt)",
+      "file": "delhivery/02-delhivery-annual-report-fy24-excerpt.pdf"
+    },
+    {
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "name": "Delhivery Q4 & FY24 Earnings Presentation",
+      "file": "delhivery/03-delhivery-q4-fy24-earnings-presentation.pdf"
+    },
+    {
+      "doc_id": "01-india-economic-survey-2024-25-excerpt",
+      "name": "India Economic Survey 2024-25 (excerpt)",
+      "file": "india-macroeconomy/01-india-economic-survey-2024-25-excerpt.pdf"
+    },
+    {
+      "doc_id": "02-rbi-annual-report-2024-25-excerpt",
+      "name": "RBI Annual Report 2024-25 (excerpt)",
+      "file": "india-macroeconomy/02-rbi-annual-report-2024-25-excerpt.pdf"
+    },
+    {
+      "doc_id": "03-imf-india-2025-article-iv-excerpt",
+      "name": "IMF India 2025 Article IV (excerpt)",
+      "file": "india-macroeconomy/03-imf-india-2025-article-iv-excerpt.pdf"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "f_965c88e845de",
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "claim": "Delhivery's revenue from contracts with customers grew from ₹16,538.97 million in Fiscal 2019 to ₹36,465.27 million in Fiscal 2021, a CAGR of 48.49%",
+      "value": "36465.27",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 55,
+      "quote": "Our revenue from contracts with customers has grown from ₹16,538.97 million in Fiscal 2019 to ₹36,465.27 million in Fiscal 2021, or a CAGR of 48.49%.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_b671fd3f84c9",
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "claim": "Delhivery was the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal 2021, per the RedSeer Report",
+      "value": null,
+      "unit": null,
+      "type": "relational",
+      "page": 55,
+      "quote": "We were the largest and fastest growing fully-integrated logistics services player in India by revenue as of Fiscal 2021, according to the RedSeer Report",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_d86dd36b185e",
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "claim": "Suvir Suren Sujan was a Non-Executive Nominee Director of Delhivery (as listed in the 2022 prospectus)",
+      "value": null,
+      "unit": null,
+      "type": "entity",
+      "page": 30,
+      "quote": "Suvir Suren Sujan(3) Non-Executive Nominee Director 01173669",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_e334d8811407",
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "claim": "Delhivery fulfilled over 289.20 million express parcel orders in Fiscal 2021",
+      "value": "289.20",
+      "unit": "Mn parcels",
+      "type": "numerical",
+      "page": 55,
+      "quote": "In Fiscal 2021, we fulfilled over 289.20 million express parcel orders",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_c0ca39668466",
+      "doc_id": "01-delhivery-prospectus-2022-excerpt",
+      "claim": "Delhivery's total income increased from ₹16,948.74 million in Fiscal 2019 to ₹38,382.91 million in Fiscal 2021",
+      "value": "38382.91",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 56,
+      "quote": "Our total income increased from ₹16,948.74 million in Fiscal 2019 to ₹29,886.29 million in Fiscal 2020 and to ₹38,382.91 million in Fiscal 2021",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_2121b4bbb6a3",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's consolidated revenue from operations was ₹81,415.38 million in FY24, up 12.68% from ₹72,253.01 million in FY23",
+      "value": "81415.38",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 22,
+      "quote": "The revenue from operations on consolidated basis for FY24 stood at ₹ 81,415.38 million as against ₹72,253.01 million for FY23, registering a growth of 12.68%.",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_00ee61f32eed",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's consolidated EBITDA was ₹1,266.41 million in FY24 versus ₹(4,516.08) million in FY23",
+      "value": "1266.41",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 36,
+      "quote": "EBITDA 1,266.41 (4,516.08) Adjusted EBITDA1 757.86 (4,038.66)",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_4adb4e59f38a",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's consolidated adjusted EBITDA was ₹757.86 million in FY24 versus ₹(4,038.66) million in FY23",
+      "value": "757.86",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 36,
+      "quote": "Adjusted EBITDA1 757.86 (4,038.66)",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_44de5805a1ff",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's express parcel revenues were ₹50,765.87 million in FY24, up 11.52% from ₹45,522.22 million in FY23",
+      "value": "50765.87",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 36,
+      "quote": "Revenues from express parcel services increased by 11.52% to ₹50,765.87 million for FY24 from ₹45,522.22 million for FY23.",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_b2510f893050",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's express parcel shipment volumes were 740 million parcels in FY24, up 11.48% from 663 million in FY23",
+      "value": "740",
+      "unit": "Mn parcels",
+      "type": "numerical",
+      "page": 36,
+      "quote": "Express parcel shipment volumes increased by 11.48% to 740 million parcels for FY24 from 663 million parcels for FY23.",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_0c3568a3f3c3",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's PTL revenues were ₹15,174.05 million in FY24, up 31.20% from ₹11,565.38 million in FY23",
+      "value": "15174.05",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 36,
+      "quote": "Revenues from PTL services increased by 31.20% to ₹15,174.05 million for FY24 from ₹11,565.38 million for FY23.",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_8e0d617477a9",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's PTL volumes were 1,429K tonnes in FY24, up 29.82% from 1,101K tonnes in FY23",
+      "value": "1429",
+      "unit": "'000 tonnes",
+      "type": "numerical",
+      "page": 36,
+      "quote": "PTL volumes increased by 29.82% to 1,429K tonnes for FY24 from 1,101K tonnes for FY23.",
+      "confidence": 0.97,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_7922a3d4ec7e",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's TL revenues were ₹6,087.96 million in FY24, up 39.56% from ₹4,362.17 million in FY23",
+      "value": "6087.96",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 36,
+      "quote": "Revenues from TL services increased by 39.56% to ₹6,087.96 million for FY24 from ₹4,362.17 million for FY23.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_f64e23e80d7c",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery served over 33,000 active customers as of March 31, 2024",
+      "value": "33000",
+      "unit": "customers",
+      "type": "numerical",
+      "page": 22,
+      "quote": "your Company provided logistics and supply chain solutions to a diverse base of over 33,000 active customers",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_625de09291fb",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's standalone loss for FY24 was ₹1,679.68 million, down 79.32% from ₹8,123.02 million in FY23",
+      "value": "1679.68",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 22,
+      "quote": "the loss for FY24 stood at ₹ 1,679.68 million as against ₹8,123.02 million for FY23, a reduction of loss by 79.32%",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_70bc7b01aca8",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Delhivery's consolidated loss for FY24 was ₹2,491.86 million, down 75.27% from ₹10,077.79 million in FY23",
+      "value": "2491.86",
+      "unit": "₹ Mn",
+      "type": "numerical",
+      "page": 22,
+      "quote": "the loss for FY24 stood at ₹ 2,491.86 million as against ₹10,077.79 million for FY23, a reduction of loss by 75.27%",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_10a02337206c",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Suvir Suren Sujan, Non-Executive Director, resigned from Delhivery's Board with effect from August 24, 2023",
+      "value": null,
+      "unit": null,
+      "type": "temporal",
+      "page": 33,
+      "quote": "Mr. Suvir Suren Sujan, Non-Executive Director, resigned from the Board with effect from August 24, 2023.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_de5078f12e29",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "Sandeep Kumar Barasia resigned as Executive Director & Chief Business Officer of Delhivery with effect from July 01, 2024",
+      "value": null,
+      "unit": null,
+      "type": "temporal",
+      "page": 24,
+      "quote": "Mr. Sandeep Kumar Barasia (DIN: 01432123) resigned from the office of Executive Director & Chief Business Officer, with effect from July 01, 2024, due to personal reasons.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_4acd68a51132",
+      "doc_id": "02-delhivery-annual-report-fy24-excerpt",
+      "claim": "The Reserve Bank of India projected India's GDP to grow at 7.2% in FY25 (per Delhivery's FY24 annual report)",
+      "value": "7.2",
+      "unit": "%",
+      "type": "numerical",
+      "page": 34,
+      "quote": "The Reserve Bank of India has projected India's GDP to grow at 7.2%1 in FY25",
+      "confidence": 0.85,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_f239e4f9eaae",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery's FY24 revenue from services was ₹8,142 crore, up 12.7% year-on-year",
+      "value": "8142",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 6,
+      "quote": "₹8,142 Cr FY24 revenue from services YoY: 12.7%",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_ee479212777b",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery's Q4 FY24 revenue from services was ₹2,076 crore, up 11.6% YoY",
+      "value": "2076",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 7,
+      "quote": "₹2,076 Cr Q4 FY24 revenue from services",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_04baaaabcbba",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery carried 1.4 million tons of PTL freight in FY24, up 29.8% YoY",
+      "value": "1.4",
+      "unit": "Mn tons",
+      "type": "numerical",
+      "page": 6,
+      "quote": "1.4 Mn Tons PTL freight tonnage in FY24 YoY: 29.8%",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_41b946b2cdf3",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery handled 740 million express parcel shipments in FY24, up 11.5% YoY",
+      "value": "740",
+      "unit": "Mn parcels",
+      "type": "numerical",
+      "page": 6,
+      "quote": "740 Mn Express parcel shipments in FY24",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_181a0f971cce",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery achieved EBITDA of ₹127 crore (1.6% margin) in FY24, versus ₹(452) crore in FY23",
+      "value": "127",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 6,
+      "quote": "₹127Cr / 1.6% EBITDA / EBITDA margin FY23: ₹(452) Cr / (6.3%)",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_6af30cbe5169",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery achieved adjusted EBITDA of ₹76 crore (0.9% margin) in FY24, versus ₹(404) crore in FY23",
+      "value": "76",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 6,
+      "quote": "₹76Cr / 0.9% Adj. EBITDA / Adj. EBITDA margin FY23: ₹(404) Cr / (5.6%)",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_f7349656c195",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery served 33,278 active customers in Q4 FY24",
+      "value": "33278",
+      "unit": "customers",
+      "type": "numerical",
+      "page": 8,
+      "quote": "No. of Active Customers(3) 23,613 27,253 30,598 33,278",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_5982d8861ac4",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery's Q4 FY24 EBITDA was ₹46 crore (2.2% margin)",
+      "value": "46",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 7,
+      "quote": "₹46Cr / 2.2% EBITDA / EBITDA margin Q4 FY23: ₹13 Cr / 0.7%",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_b13fbbe02e05",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery's PTL freight revenue was ₹1,429 crore in FY24 (naive chart reading from the earnings deck)",
+      "value": "1429",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 9,
+      "quote": "PTL freight revenue(2) 1,579 1,101 1,429 FY22 FY23 FY24",
+      "confidence": 0.4,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_8e07b3ef7834",
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "claim": "Delhivery's express parcel revenue was ₹5,077 crore in FY24, up ~11% YoY (deck segment chart)",
+      "value": "5077",
+      "unit": "₹ Cr",
+      "type": "numerical",
+      "page": 9,
+      "quote": "4,191 4,552 5,077 FY22 FY23 FY24 Express Parcel revenue",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_8b8674490a0d",
+      "doc_id": "01-india-economic-survey-2024-25-excerpt",
+      "claim": "India's real GDP growth was 6.0% in H1 FY25 (Q1: 6.7%, Q2: 5.4%)",
+      "value": "6.0",
+      "unit": "%",
+      "type": "numerical",
+      "page": 20,
+      "quote": "This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal.",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_0119fe6a169e",
+      "doc_id": "01-india-economic-survey-2024-25-excerpt",
+      "claim": "India's CPI headline inflation softened from 5.4% in FY24 to 4.9% in April–December 2024 (Economic Survey)",
+      "value": "4.9",
+      "unit": "%",
+      "type": "numerical",
+      "page": 28,
+      "quote": "Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April – December 2024",
+      "confidence": 0.92,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_b68bc8f2f2e4",
+      "doc_id": "01-india-economic-survey-2024-25-excerpt",
+      "claim": "The Economic Survey expects India's FY26 growth to be between 6.3% and 6.8%",
+      "value": "6.3-6.8",
+      "unit": "%",
+      "type": "numerical",
+      "page": 36,
+      "quote": "we expect that the growth in FY26 would be between 6.3 and 6.8 per cent",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_e4e975bea453",
+      "doc_id": "02-rbi-annual-report-2024-25-excerpt",
+      "claim": "RBI projects real GDP growth for 2025-26 at 6.5%, with risks evenly balanced",
+      "value": "6.5",
+      "unit": "%",
+      "type": "numerical",
+      "page": 17,
+      "quote": "Taking into account these factors, real GDP growth for 2025-26 is projected at 6.5 per cent, with risks evenly balanced.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_78916c15c02e",
+      "doc_id": "02-rbi-annual-report-2024-25-excerpt",
+      "claim": "Headline CPI inflation eased by 73 bps to 4.6% in 2024-25 (full fiscal year, RBI)",
+      "value": "4.6",
+      "unit": "%",
+      "type": "numerical",
+      "page": 17,
+      "quote": "headline inflation eased by 73 bps to 4.6 per cent in 2024-25",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_acc394b67182",
+      "doc_id": "02-rbi-annual-report-2024-25-excerpt",
+      "claim": "RBI projects CPI inflation for 2025-26 at 4.0%, with risks evenly balanced",
+      "value": "4.0",
+      "unit": "%",
+      "type": "numerical",
+      "page": 17,
+      "quote": "CPI inflation for 2025-26 is projected at 4.0 per cent, with risks evenly balanced.",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_076eaf05cd01",
+      "doc_id": "02-rbi-annual-report-2024-25-excerpt",
+      "claim": "The MPC cut the policy repo rate by 25 bps to 6.0% in its April 2025 meeting",
+      "value": "6.0",
+      "unit": "%",
+      "type": "numerical",
+      "page": 17,
+      "quote": "the MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_67b8b5c050d1",
+      "doc_id": "03-imf-india-2025-article-iv-excerpt",
+      "claim": "IMF staff projects India's real GDP growth at 6.6% in FY2025/26",
+      "value": "6.6",
+      "unit": "%",
+      "type": "numerical",
+      "page": 13,
+      "quote": "real GDP growth is projected at 6.6 percent in FY2025/26",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_bf72ca2cd161",
+      "doc_id": "03-imf-india-2025-article-iv-excerpt",
+      "claim": "IMF expects India's headline inflation to average 2.8% in FY2025/26",
+      "value": "2.8",
+      "unit": "%",
+      "type": "numerical",
+      "page": 13,
+      "quote": "Headline inflation is expected to remain benign and average 2.8 percent in FY2025/26",
+      "confidence": 0.95,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_6f9de34aae0b",
+      "doc_id": "03-imf-india-2025-article-iv-excerpt",
+      "claim": "IMF expects India's growth to decline to 6.2% in FY2026/27 due to US tariffs",
+      "value": "6.2",
+      "unit": "%",
+      "type": "numerical",
+      "page": 13,
+      "quote": "Growth is expected to decline to 6.2 percent in FY2026/27",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    },
+    {
+      "fact_id": "f_5e72bf687751",
+      "doc_id": "03-imf-india-2025-article-iv-excerpt",
+      "claim": "India's real GDP growth was 7.8% in 2025Q2 (IMF Article IV, November 2025)",
+      "value": "7.8",
+      "unit": "%",
+      "type": "numerical",
+      "page": 10,
+      "quote": "real GDP growth of 7.8 percent in 2025Q2",
+      "confidence": 0.9,
+      "source": "seed",
+      "score": 1.0
+    }
+  ],
+  "candidate_pairs": [
+    [
+      "f_f239e4f9eaae",
+      "f_2121b4bbb6a3"
+    ],
+    [
+      "f_41b946b2cdf3",
+      "f_b2510f893050"
+    ],
+    [
+      "f_181a0f971cce",
+      "f_00ee61f32eed"
+    ],
+    [
+      "f_6af30cbe5169",
+      "f_4adb4e59f38a"
+    ],
+    [
+      "f_04baaaabcbba",
+      "f_8e0d617477a9"
+    ],
+    [
+      "f_f7349656c195",
+      "f_f64e23e80d7c"
+    ],
+    [
+      "f_b13fbbe02e05",
+      "f_0c3568a3f3c3"
+    ],
+    [
+      "f_8e07b3ef7834",
+      "f_44de5805a1ff"
+    ],
+    [
+      "f_625de09291fb",
+      "f_70bc7b01aca8"
+    ],
+    [
+      "f_d86dd36b185e",
+      "f_10a02337206c"
+    ],
+    [
+      "f_0119fe6a169e",
+      "f_78916c15c02e"
+    ],
+    [
+      "f_bf72ca2cd161",
+      "f_acc394b67182"
+    ],
+    [
+      "f_67b8b5c050d1",
+      "f_e4e975bea453"
+    ],
+    [
+      "f_67b8b5c050d1",
+      "f_b68bc8f2f2e4"
+    ],
+    [
+      "f_e4e975bea453",
+      "f_b68bc8f2f2e4"
+    ]
+  ],
+  "curated_relationships": [
+    {
+      "rel_id": "r_80b5169b80d6",
+      "fact_id_a": "f_41b946b2cdf3",
+      "fact_id_b": "f_b2510f893050",
+      "kind": "corroborates",
+      "explanation": "Same fact, different documents and phrasing: the deck's headline '740 Mn Express parcel shipments in FY24' matches the annual report's '740 million parcels for FY24'. The AR adds the FY23 base (663 million) and the exact growth rate (11.48%), which rounds to the deck's 11.5%.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_3ad355d1be90",
+      "fact_id_a": "f_181a0f971cce",
+      "fact_id_b": "f_00ee61f32eed",
+      "kind": "corroborates",
+      "explanation": "Unit conversion: the deck reports EBITDA in ₹ crore (₹127 Cr) while the annual report reports ₹ million (₹1,266.41 Mn). ₹1,266.41 Mn = ₹126.64 Cr ≈ ₹127 Cr. The FY23 bases also agree: ₹(4,516.08) Mn = ₹(451.6) Cr ≈ deck's ₹(452) Cr. Same underlying fact, different units and rounding.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_d4201d61b774",
+      "fact_id_a": "f_04baaaabcbba",
+      "fact_id_b": "f_8e0d617477a9",
+      "kind": "corroborates",
+      "explanation": "1.4 million tons (deck) ≈ 1,429 thousand tonnes (annual report) — the deck rounds to one decimal, the AR is exact. Growth rates agree: 29.8% (deck) vs 29.82% (AR), from the same FY23 base of 1,101K tonnes.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_76158a474e7c",
+      "fact_id_a": "f_f7349656c195",
+      "fact_id_b": "f_f64e23e80d7c",
+      "kind": "corroborates",
+      "explanation": "The deck's exact quarterly count (33,278 active customers in Q4 FY24) is consistent with the annual report's rounded 'over 33,000 active customers' as of March 31, 2024. Different precision, same underlying fact.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_9fe4e6f89459",
+      "fact_id_a": "f_8e07b3ef7834",
+      "fact_id_b": "f_44de5805a1ff",
+      "kind": "corroborates",
+      "explanation": "Deck segment chart shows Express Parcel revenue of ₹5,077 Cr in FY24; the AR states ₹50,765.87 million = ₹5,076.6 Cr ≈ ₹5,077 Cr. Chart rounding vs statutory disclosure of the same figure.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_683895d6ffb8",
+      "fact_id_a": "f_bf72ca2cd161",
+      "fact_id_b": "f_acc394b67182",
+      "kind": "contradicts",
+      "explanation": "Both documents project CPI headline inflation for the SAME fiscal year (FY2025/26), yet the IMF (Article IV, Nov 2025) says 2.8% while the RBI (Annual Report, Aug 2025) says 4.0% — a 1.2 percentage point gap. This is a genuine conflict between two official projections. Context that partially explains it: the IMF report is later and incorporates the post-GST-reform disinflation and collapsing food prices, which the RBI's earlier report could not fully anticipate. The system flags this for human review rather than silently picking a winner.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_17f6516a119d",
+      "fact_id_a": "f_d86dd36b185e",
+      "fact_id_b": "f_10a02337206c",
+      "kind": "reconciles",
+      "explanation": "Apparent conflict: the 2022 prospectus lists Suvir Suren Sujan as a sitting Non-Executive Nominee Director, while the FY24 annual report says he 'resigned from the Board with effect from August 24, 2023'. Reconciled by time: the prospectus speaks as of May 2022; the resignation took effect ~15 months later. Both documents are correct for their respective dates.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_713f96434007",
+      "fact_id_a": "f_625de09291fb",
+      "fact_id_b": "f_70bc7b01aca8",
+      "kind": "reconciles",
+      "explanation": "Same document, same year, two very different 'loss for FY24' figures (₹1,679.68 Mn vs ₹2,491.86 Mn). Reconciled by scope: the first is the STANDALONE loss, the second the CONSOLIDATED loss (which includes subsidiaries). The comparison must read the accounting basis, not just the number.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_6eef2dcdcba2",
+      "fact_id_a": "f_0119fe6a169e",
+      "fact_id_b": "f_78916c15c02e",
+      "kind": "reconciles",
+      "explanation": "Both state CPI headline inflation for 'FY25' but over different windows: the Economic Survey (written Jan 2025) covers April–December 2024 (4.9%); the RBI Annual Report (Aug 2025) covers the full fiscal year 2024-25 (4.6%), which includes the sharp food-inflation decline in Q4 (Feb–Mar 2025) that the Survey could not yet observe. Different coverage windows, not conflicting data.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_1a4f1abd5658",
+      "fact_id_a": "f_f239e4f9eaae",
+      "fact_id_b": "f_2121b4bbb6a3",
+      "kind": "reconciles",
+      "explanation": "Deck says 'revenue from services ₹8,142 Cr'; AR says 'revenue from operations ₹81,415.38 Mn'. ₹8,142 Cr = ₹81,420 Mn ≈ ₹81,415.38 Mn (rounding). Two further wrinkles: the deck's figure EXCLUDES traded goods revenue while the AR's is total revenue from operations, and the units differ (crore vs million). Reconciled via unit conversion + scope note; the ~0.006% residual is rounding.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_d857effb61ad",
+      "fact_id_a": "f_b13fbbe02e05",
+      "fact_id_b": "f_0c3568a3f3c3",
+      "kind": "reconciles",
+      "explanation": "Naive chart reading gives 'PTL freight revenue ₹1,429 Cr' from the deck, but the AR's statutory figure is ₹15,174.05 Mn = ₹1,517.4 Cr — 5.8% apart with no honest reconciliation. The real story is an extraction failure: PDF text extraction separates chart numbers from their labels, and '1,429' is actually PTL TONNAGE in '000 tonnes (matching AR's 1,429K tonnes), not revenue. See the Failures section for the full post-mortem.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_540e3381a933",
+      "fact_id_a": "f_67b8b5c050d1",
+      "fact_id_b": "f_e4e975bea453",
+      "kind": "reconciles",
+      "explanation": "IMF projects 6.6% growth for FY2025/26 (Nov 2025); RBI projects 6.5% for 2025-26 (Aug 2025). Nearly identical — the 0.1pp gap reflects forecast vintage: the IMF incorporates the stronger 2025Q2 outturn (7.8%) and GST reform effects that post-date the RBI report.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_11bd4645c076",
+      "fact_id_a": "f_67b8b5c050d1",
+      "fact_id_b": "f_b68bc8f2f2e4",
+      "kind": "reconciles",
+      "explanation": "The Economic Survey's FY26 growth range (6.3–6.8%, published Jan 2025) brackets the IMF's later point estimate (6.6%, Nov 2025). A range vs a point forecast from different vintages — consistent rather than conflicting.",
+      "source": "seed"
+    },
+    {
+      "rel_id": "r_2511b71cd242",
+      "fact_id_a": "f_e4e975bea453",
+      "fact_id_b": "f_b68bc8f2f2e4",
+      "kind": "reconciles",
+      "explanation": "RBI's 6.5% projection for 2025-26 sits inside the Economic Survey's 6.3–6.8% range for FY26. Different institutions, consistent outlooks.",
+      "source": "seed"
+    }
+  ],
+  "failures": [
+    {
+      "doc_id": "03-delhivery-q4-fy24-earnings-presentation",
+      "stage": "chart-extraction",
+      "detail": "Text-order jumbling in the earnings deck's segment charts (PDF pages 9-10): numbers are emitted in a different stream order than their chart labels, so label-adjacency extraction reads '1,579 / 1,101 / 1,429' next to 'PTL freight revenue' when those numbers are actually PTL TONNAGE in '000 tonnes; the real PTL revenue series is 1,705 / 1,157 / 1,517 (₹ Cr). Detected via cross-document check against the annual report (₹15,174.05 Mn = ₹1,517.4 Cr PTL revenue; 1,429K tonnes PTL volume). Mitigation in place: every fact's quote is verified against page text, and cross-doc numeric mismatches are surfaced as relationships for review. Planned improvement: layout-aware chart extraction (bbox clustering via pymupdf words) so numbers inherit the coordinates of their chart title/legend."
+    }
+  ],
+  "showcase": [
+    {
+      "case": 1,
+      "title": "Corroborated across documents (different wording + units)",
+      "a": "d5",
+      "b": "a2",
+      "narrative": "Deck headline 'EBITDA ₹127 Cr / 1.6%' vs annual report 'EBITDA ₹1,266.41 Mn'. Different units (crore vs million rupees), different precision — the system normalizes units (₹1,266.41 Mn = ₹126.6 Cr ≈ ₹127 Cr) and verifies both quotes against the source pages. Also see: express parcel shipments (deck '740 Mn' vs AR '740 million parcels, up 11.48%') and PTL tonnage (deck '1.4 Mn Tons' vs AR '1,429K tonnes').",
+      "fact_id_a": "f_181a0f971cce",
+      "fact_id_b": "f_00ee61f32eed"
+    },
+    {
+      "case": 2,
+      "title": "Genuine contradiction: FY2025/26 CPI projection (IMF vs RBI)",
+      "a": "m9",
+      "b": "m6",
+      "narrative": "Two official projections for the same period, same indicator: IMF 2.8% vs RBI 4.0% — a 1.2pp gap the system refuses to wave away. The explanation cites both quotes, notes the publication-order context (GST reform disinflation post-dates the RBI report), and marks the pair for human review instead of forcing agreement.",
+      "fact_id_a": "f_bf72ca2cd161",
+      "fact_id_b": "f_acc394b67182"
+    },
+    {
+      "case": 3,
+      "title": "Apparent contradictions reconciled by context (time / scope / units / coverage)",
+      "a": "p3",
+      "b": "a12",
+      "narrative": "Director example: prospectus (May 2022) lists Suvir Suren Sujan as a current director; annual report says he resigned effective Aug 24, 2023 — TIME reconciles them. Three more reconciliations in the dataset: standalone vs consolidated loss (SCOPE), Survey Apr–Dec CPI 4.9% vs RBI full-year 4.6% (COVERAGE WINDOW), and deck ₹8,142 Cr services revenue vs AR ₹81,415.38 Mn revenue from operations (UNITS + rounding + label scope).",
+      "fact_id_a": "f_d86dd36b185e",
+      "fact_id_b": "f_10a02337206c"
+    },
+    {
+      "case": 4,
+      "title": "Extraction failure found, handled, and documented",
+      "a": "d9",
+      "b": "a6",
+      "narrative": "Naive label-adjacency extraction reads the deck's PTL chart as 'revenue ₹1,429 Cr in FY24' — wrong: PDF text order separates chart numbers from labels, and 1,429 is tonnage ('000 tonnes). The cross-document check against the AR's statutory ₹15,174.05 Mn (=₹1,517.4 Cr) exposed it. Handling: quote-verification on every fact, cross-doc mismatch surfacing, a Failures log in the API/UI, and a planned fix (bbox-based chart extraction). Every system that extracts from real PDFs has failures — this one surfaces its own.",
+      "fact_id_a": "f_b13fbbe02e05",
+      "fact_id_b": "f_0c3568a3f3c3"
+    }
+  ]
+}
