@@ -163,9 +163,13 @@ def showcase():
             ).fetchone()
             if not fa or not fb:
                 continue
+            # If both a curated (seed) and a heuristic relationship exist for
+            # this pair, prefer the curated one - it carries richer reasoning.
             rel = conn.execute(
                 """SELECT * FROM relationships
-                   WHERE (fact_id_a=? AND fact_id_b=?) OR (fact_id_a=? AND fact_id_b=?)""",
+                   WHERE (fact_id_a=? AND fact_id_b=?) OR (fact_id_a=? AND fact_id_b=?)
+                   ORDER BY CASE WHEN source='seed' THEN 0 ELSE 1 END, created_at
+                   LIMIT 1""",
                 (s["fact_id_a"], s["fact_id_b"], s["fact_id_b"], s["fact_id_a"]),
             ).fetchone()
             cases.append(

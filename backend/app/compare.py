@@ -144,8 +144,15 @@ def compare_facts(facts, llm: LLM, conn):
 
         if kind not in ("corroborates", "contradicts", "reconciles"):
             continue
+        rel_id = _rel_id(fa["fact_id"], fb["fact_id"])
+        # Never overwrite a human-curated (seed) relationship for this pair.
+        existing = conn.execute(
+            "SELECT source FROM relationships WHERE rel_id = ?", (rel_id,)
+        ).fetchone()
+        if existing and existing["source"] == "seed":
+            continue
         rel = {
-            "rel_id": _rel_id(fa["fact_id"], fb["fact_id"]),
+            "rel_id": rel_id,
             "fact_id_a": fa["fact_id"],
             "fact_id_b": fb["fact_id"],
             "kind": kind,

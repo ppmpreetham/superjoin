@@ -59,6 +59,12 @@ def seed_if_empty(conn) -> dict:
             continue
         kind, expl = hc
         rel_id = "r_" + hashlib.sha1("|".join(sorted([a_id, b_id])).encode()).hexdigest()[:12]
+        # Curated relationships (same deterministic id) always win.
+        existing = conn.execute(
+            "SELECT source FROM relationships WHERE rel_id = ?", (rel_id,)
+        ).fetchone()
+        if existing:
+            continue
         upsert_relationship(
             conn,
             {
