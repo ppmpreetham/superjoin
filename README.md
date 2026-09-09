@@ -4,6 +4,7 @@ This system reads PDF documents. It takes out facts. It links each fact to the
 words in the source. It then compares facts from different documents. It tells
 you when facts agree, when they fight, and when the fight is not real.
 
+![](readme/image.png)
 **Parts:** Python (FastAPI, PyMuPDF, SQLite, sentence-transformers) · React
 (Vite) · An LLM is optional. The system works with no API key.
 
